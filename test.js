@@ -39,6 +39,16 @@ for (i=0; i<=largest;i++){
 
  console.log(largest);
 
- // List the highest and lowest mark
+ // Displayed name of students
+
 
  
+function listStudents() {
+  let Students = ["name :Jafta", "name :Boitumelo", "name :Tshidiso","name :Thato","name :Lesego"]
+  
+  Students.map((student, index) => {
+    console.log(index, student)
+  })
+}
+
+listStudents()
